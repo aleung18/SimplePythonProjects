@@ -1,0 +1,2 @@
+# SimplePythonProjects
+Projects from freeCodeCamp
