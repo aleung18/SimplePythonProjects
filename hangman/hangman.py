@@ -123,8 +123,8 @@ while (template_count < 6) and word_incomplete:
     print(word_template + "\n")
     user_guess = input("Enter a letter: ").lower()
 
-    ltr_lst = letter_match(user_guess, computer_word)
     idx_lst = find_index(user_guess, computer_word)
+    ltr_lst = letter_match(user_guess, computer_word)
 
     # checks to see if ltr_index_lst contains indices or if it is empty, determines whether letter is in the word or not
     if not ltr_lst:
